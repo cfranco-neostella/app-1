@@ -12,7 +12,7 @@ const Counter = () => {
       <Text>
         Add by one each click <strong>APP-1</strong>
       </Text>
-      <Text>Your click count *test : {count} </Text>
+      <Text>Your click count : {count} </Text>
       <Button onClick={() => setCount(count + 1)}>Click me</Button>
       {location.pathname !== "/" && (
         <Button as={Link} to="/">
